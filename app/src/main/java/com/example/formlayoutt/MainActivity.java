@@ -18,19 +18,11 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
     }
-    public void onRegisterBtnClick(View view){
-        TextView txtName = findViewById(R.id.txtName);
-        TextView txtLastName = findViewById(R.id.txtLastName);
-        TextView txtEmail = findViewById(R.id.txtEmail);
+    public void onHelloBtnClick(View view){
+        TextView txtName = findViewById(R.id.textWellkommen);
 
+        txtName.setText("You're not welcome in here" );
 
-        EditText editTextName= findViewById(R.id.editTextName);
-        EditText editTextLastName= findViewById(R.id.editTextLastName);
-        EditText editTextEmail= findViewById(R.id.editTextEmail);
-
-        txtName.setText("First Name: "  + editTextName.getText().toString());
-        txtLastName.setText("Last Name: "  + editTextLastName.getText().toString());
-        txtEmail.setText("Email: "  + editTextEmail.getText().toString());
 
     }
 
