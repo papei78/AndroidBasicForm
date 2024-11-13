@@ -23,7 +23,7 @@
         android:layout_below="@+id/textWellkommen"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="15dp"
-        android:onClick="onHelloBtnClick"
+        android:id="@+id/btnHello"
         />
 
 
